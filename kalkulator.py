@@ -20,11 +20,10 @@ b = input("Give the second number:")
 
 number_a = float(a)
 number_b = float(b)
-#czy tutaj użyć float czy int czy może jeszcze coś innego?
 
 logging.debug(f"{operations[operator]} {number_a} and {number_b}")
 
-def kalkulator(number_a, number_b):
+def calculator(number_a, number_b):
     if operator == "1":
         c = number_a + number_b
         return c
@@ -42,5 +41,5 @@ def kalkulator(number_a, number_b):
             c = number_a / number_b
             return c
       
-wynik = kalkulator(number_a, number_b)
-print(f"The result is: {wynik}")
+result = calculator(number_a, number_b)
+print(f"The result is: {result}")
