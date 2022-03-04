@@ -1,3 +1,3 @@
-# kalkulator
+# my_calculator
 
-Projekt zakładał stworzenie własnego kalkulatora prostego wraz z interakcją z użytkownikiem, który podaje działanie oraz liczby. 
+The project was about the creation of your own simple calculator with interaction with the user who chooses the operation and numbers. 
